@@ -1,0 +1,18 @@
+[
+  {
+    "Code": "BJS",
+    "CountryID": 1,
+    "ID": 1,
+    "Name": "北京",
+    "CountryCode": "CN",
+    "DataChange_LastTime": "/Date(1529990008930+0800)/"
+  },
+  {
+    "Code": "SHA",
+    "CountryID": 1,
+    "ID": 2,
+    "Name": "上海",
+    "CountryCode": "CN",
+    "DataChange_LastTime": "/Date(1529990008930+0800)/"
+  }
+]
