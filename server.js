@@ -2,6 +2,8 @@
 const express = require('express')
 const app = express()
 
+const { PORT = 5000 } = process.env
+
 
 const {
   GraphQLSchema,
@@ -31,8 +33,8 @@ app.use('/graphql', graphqlHTTP((req, res, params) => ({
   graphiql: true
 })))
 
-app.listen(8080, () => {
-  console.log('url: http://127.0.0.1:8080/graphql')
+app.listen(PORT, () => {
+  console.log(`url: http://127.0.0.1:${PORT}/graphql`)
   console.log('GraphQL Demo Ready ...')
 })
 
